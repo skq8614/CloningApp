@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CloningApp</string>
+    <color name="teal">#3ca0c1</color>
+    <color name="white">#ffffff</color>
+</resources>
