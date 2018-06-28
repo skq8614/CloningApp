@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoLiveActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="221dp"
+        android:layout_height="45dp"
+        android:background="#d04949"
+        android:text="GO LIVE"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="186dp"
+        android:layout_height="26dp"
+        android:text="Want to see stuff here?"
+        android:textAlignment="center"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="134dp"
+        android:layout_height="35dp"
+        android:text="No Activity Yet"
+        android:textAlignment="center"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="303dp"
+        android:layout_height="38dp"
+        android:text="Check here to see new followers, replay viewers, and othe rinteresting activity."
+        android:textAlignment="center"
+        android:typeface="sans"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="64dp"
+        android:layout_height="146dp"
+        app:srcCompat="@drawable/camera"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="84dp"
+        android:layout_height="127dp"
+        app:srcCompat="@drawable/girl"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="33dp"
+        android:layout_height="29dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/greyheart"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+</android.support.constraint.ConstraintLayout>
